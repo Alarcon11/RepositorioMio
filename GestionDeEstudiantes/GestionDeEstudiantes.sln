@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionDeEstudiantes", "GestionDeEstudiantes\GestionDeEstudiantes.csproj", "{0713C0C0-9F64-49EA-AC85-B9B6557A740C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionDeEstudiantes", "GestionDeEstudiantes\GestionDeEstudiantes.csproj", "{0713C0C0-9F64-49EA-AC85-B9B6557A740C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudiantesCore", "EstudiantesCore\EstudiantesCore.csproj", "{F3D5C518-394A-49CA-9794-46597D7B6550}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstudiantesCore", "EstudiantesCore\EstudiantesCore.csproj", "{F3D5C518-394A-49CA-9794-46597D7B6550}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudiantesInfraestructure", "EstudiantesInfraestructure\EstudiantesInfraestructure.csproj", "{99572F81-B5B4-4F44-9D78-C4B542834876}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstudiantesInfraestructure", "EstudiantesInfraestructure\EstudiantesInfraestructure.csproj", "{99572F81-B5B4-4F44-9D78-C4B542834876}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DevExtreme NuGet.config", "DevExtreme NuGet.config", "{7E75A078-4FD2-4CEA-8E6A-2AAB9B9540F5}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet.config = NuGet.config
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

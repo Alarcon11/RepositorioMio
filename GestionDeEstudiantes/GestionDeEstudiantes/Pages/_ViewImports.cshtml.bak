@@ -1,0 +1,3 @@
+﻿@using GestionDeEstudiantes
+@namespace GestionDeEstudiantes.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers

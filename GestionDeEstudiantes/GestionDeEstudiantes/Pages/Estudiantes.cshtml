@@ -1,0 +1,117 @@
+﻿@page
+@model GestionDeEstudiantes.Pages.EstudiantesModel
+@using EstudiantesCore.Dtos
+@{
+}
+@using DevExtreme.AspNet.Mvc
+@using EstudiantesCore.Entidades;
+
+@Html.AntiForgeryToken()
+
+@(Html.DevExtreme().Form<EstudiantesDTO>()
+        .ID("FormEstudiante")
+        .ColCount(12)
+        .Items(items =>
+        {
+
+
+                items.AddSimpleFor(m => m.TipoDocumento)
+               .ColSpan(4)
+               .Label(v => v.Location(FormLabelLocation.Top).Text("Tipo de documento"))
+               .ValidationRules(q => q.AddRequired().Message("El campo es requerido"))
+               .Editor(f => f.SelectBox().Placeholder("seleccione su tipo documento").DisplayExpr("Nombre").DataSource(d => d.Array()
+               .Data(new List<TipoDocumento>() { new TipoDocumento() { Id = 1, Code = "CC", Nombre = "Cedula de ciudadania" } }).Key("Id")));
+
+
+                 items.AddSimpleFor(m => m.Documento)
+                .ValidationRules(v => v.AddRequired().Message("El documento es requerido"))
+                .ValidationRules(v => v.AddNumeric().Message("Ingrese solo numeros"))
+                .Label(f => f.Location(FormLabelLocation.Top).Text("Documento"))
+                .ColSpan(4)
+                .Editor(d => d.TextBox().MaxLength(20).Placeholder("Digite su documento"));
+                
+
+
+                items.AddSimpleFor(m => m.Nombre)
+                .ValidationRules(v => v.AddRequired().Message("El nombre es requerido"))
+                .ValidationRules(q => q.AddStringLength().Min(10).Max(15).Message("minimo 10, maximo 15"))
+                .Label(f => f.Location(FormLabelLocation.Top).Text("Nombres"))
+                .ColSpan(4)
+                .Editor(d => d.TextBox().MaxLength(100).Placeholder("Digite su nombre"));
+
+
+                items.AddSimpleFor(m => m.Apellido)
+                .ValidationRules(v => v.AddRequired().Message("El nombre es requerido"))
+                .Label(f => f.Location(FormLabelLocation.Top).Text("Apellidos"))
+                .ColSpan(4)
+                .Editor(d => d.TextBox().MaxLength(100).Placeholder("Digite su apellido"));
+
+
+                 items.AddSimpleFor(m => m.Sexo)
+                .ColSpan(4)
+                .Label(v => v.Location(FormLabelLocation.Top).Text("Sexo"))
+                .ValidationRules(q => q.AddRequired().Message("El campo es requerido"))
+                .Editor(f => f.SelectBox().DataSource(d => d.Array()
+                .Data(new List<String>() { "M", "F" })).Placeholder("Seleccione su sexo"));
+
+
+                items.AddSimpleFor(m => m.FechaNacimiento)
+                .ColSpan(4)
+                .Label(v => v.Location(FormLabelLocation.Top).Text("Fecha de nacimiento"))
+                .ValidationRules(q => q.AddRequired().Message("El campo es requerido"))
+                .Editor(f => f.DateBox().Max(DateTime.Now).DateSerializationFormat("yyyy-MM-dd")
+                .DisplayFormat("dd/MM/yyyy")
+                .Placeholder("Seleccione su fecha de nacimiento"));
+
+
+                items.AddSimpleFor(m => m.Email)
+                .ValidationRules(v => v.AddRequired().Message("El E-mail es requerido"))
+                .ValidationRules(g => g.AddEmail().Message("Ingrese un email valido"))
+                .Label(f => f.Location(FormLabelLocation.Top).Text("E-mail"))
+                .ColSpan(4)
+                .Editor(d => d.TextBox().MaxLength(200).Placeholder("Digite su E-mail"));
+
+
+                 items.AddSimpleFor(m => m.Telefono)
+                .ValidationRules(v => v.AddRequired().Message("El Telefono es requerido"))
+                .ValidationRules(v => v.AddNumeric().Message("Ingrese solo numeros"))
+                .Label(f => f.Location(FormLabelLocation.Top).Text("Telefono"))
+                .ColSpan(4)
+                .Editor(d => d.TextBox().MaxLength(20).Placeholder("Digite su telefono"));
+
+
+                items.AddSimpleFor(m => m.Direccion)
+                .ValidationRules(v => v.AddRequired().Message("La direccion es requerida"))
+                .Label(f => f.Location(FormLabelLocation.Top).Text("Direccion"))
+                .ColSpan(4)
+                .Editor(d => d.TextArea().MaxLength(500).Placeholder("Digite su Direccion"));
+
+
+                items.AddSimpleFor(m => m.FechaIngreso)
+                .ColSpan(4)
+                .Label(v => v.Location(FormLabelLocation.Top).Text("Fecha de ingreso"))
+                .ValidationRules(q => q.AddRequired().Message("El campo es requerido"))
+                .Editor(f => f.DateBox().Max(DateTime.Now).DateSerializationFormat("yyyy-MM-dd")
+                .DisplayFormat("dd/MM/yyyy").Placeholder("coloque su fecha de ingreso"));
+
+
+                items.AddEmpty().ColSpan(4);
+
+
+            items.AddButton().VerticalAlignment(VerticalAlignment.Bottom)
+    .ButtonOptions(s => s.Icon("save")
+        .Type(ButtonType.Default)
+        .OnClick("salvar")
+        .Text("guardar"))
+    .ColSpan(4);
+
+
+}
+)
+)
+ @section Scripts
+{
+    <script src="~/js/Estudiantes.js" >
+        
+    </script>
+}

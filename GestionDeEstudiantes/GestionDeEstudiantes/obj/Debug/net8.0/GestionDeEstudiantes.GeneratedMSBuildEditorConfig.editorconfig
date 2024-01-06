@@ -22,12 +22,28 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/USUARIO/3D Objects/RepositorioMio/GestionDeEstudiantes/GestionDeEstudiantes/Pages/Estudiantes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXN0dWRpYW50ZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/USUARIO/3D Objects/RepositorioMio/GestionDeEstudiantes/GestionDeEstudiantes/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/USUARIO/3D Objects/RepositorioMio/GestionDeEstudiantes/GestionDeEstudiantes/Pages/Materias.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWF0ZXJpYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/USUARIO/3D Objects/RepositorioMio/GestionDeEstudiantes/GestionDeEstudiantes/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/3D Objects/RepositorioMio/GestionDeEstudiantes/GestionDeEstudiantes/Pages/Profesores.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmVzb3Jlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/3D Objects/RepositorioMio/GestionDeEstudiantes/GestionDeEstudiantes/Pages/Shared/_DevExtremeLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9EZXZFeHRyZW1lTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/USUARIO/3D Objects/RepositorioMio/GestionDeEstudiantes/GestionDeEstudiantes/Pages/Shared/_ValidationScriptsPartial.cshtml]

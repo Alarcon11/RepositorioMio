@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "k+j3ybsJ+bKV2bwwBqvzbXuxoeBERec8sBguJL7Sh1KKordsNPdWo4y/3/Iknj6DN3Yb7oxVVH46kp+xlg55HA==",
+  "dgSpecHash": "FImFMsSpuHc/Sp9GV8O+Wf0am4ZkWcTF5fXkwCZIJKSW9jkovlXBkmVCGlj2aa/oAjCQSRiWcXNBF53cKmX+Lw==",
   "success": true,
   "projectFilePath": "C:\\Users\\USUARIO\\3D Objects\\RepositorioMio\\GestionDeEstudiantes\\GestionDeEstudiantes\\GestionDeEstudiantes.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\USUARIO\\.nuget\\packages\\devextreme.aspnet.core\\23.2.3\\devextreme.aspnet.core.23.2.3.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\devextreme.aspnet.data\\3.0.0\\devextreme.aspnet.data.3.0.0.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.csharp\\4.4.0\\microsoft.csharp.4.4.0.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,0 +1,14 @@
+C:\Users\USUARIO\3D Objects\RepositorioMio\GestionDeEstudiantes\EstudiantesInfraestructure\bin\Debug\net8.0\EstudiantesInfraestructure.deps.json
+C:\Users\USUARIO\3D Objects\RepositorioMio\GestionDeEstudiantes\EstudiantesInfraestructure\bin\Debug\net8.0\EstudiantesInfraestructure.dll
+C:\Users\USUARIO\3D Objects\RepositorioMio\GestionDeEstudiantes\EstudiantesInfraestructure\bin\Debug\net8.0\EstudiantesInfraestructure.pdb
+C:\Users\USUARIO\3D Objects\RepositorioMio\GestionDeEstudiantes\EstudiantesInfraestructure\obj\Debug\net8.0\EstudiantesInfraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\3D Objects\RepositorioMio\GestionDeEstudiantes\EstudiantesInfraestructure\obj\Debug\net8.0\EstudiantesInfraestructure.AssemblyInfoInputs.cache
+C:\Users\USUARIO\3D Objects\RepositorioMio\GestionDeEstudiantes\EstudiantesInfraestructure\obj\Debug\net8.0\EstudiantesInfraestructure.AssemblyInfo.cs
+C:\Users\USUARIO\3D Objects\RepositorioMio\GestionDeEstudiantes\EstudiantesInfraestructure\obj\Debug\net8.0\EstudiantesInfraestructure.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\3D Objects\RepositorioMio\GestionDeEstudiantes\EstudiantesInfraestructure\obj\Debug\net8.0\EstudiantesInfraestructure.sourcelink.json
+C:\Users\USUARIO\3D Objects\RepositorioMio\GestionDeEstudiantes\EstudiantesInfraestructure\obj\Debug\net8.0\EstudiantesInfraestructure.dll
+C:\Users\USUARIO\3D Objects\RepositorioMio\GestionDeEstudiantes\EstudiantesInfraestructure\obj\Debug\net8.0\refint\EstudiantesInfraestructure.dll
+C:\Users\USUARIO\3D Objects\RepositorioMio\GestionDeEstudiantes\EstudiantesInfraestructure\obj\Debug\net8.0\EstudiantesInfraestructure.pdb
+C:\Users\USUARIO\3D Objects\RepositorioMio\GestionDeEstudiantes\EstudiantesInfraestructure\obj\Debug\net8.0\ref\EstudiantesInfraestructure.dll
+C:\Users\USUARIO\3D Objects\RepositorioMio\GestionDeEstudiantes\EstudiantesInfraestructure\obj\Debug\net8.0\EstudiantesInfraestructure.Properties.Resources.resources
+C:\Users\USUARIO\3D Objects\RepositorioMio\GestionDeEstudiantes\EstudiantesInfraestructure\obj\Debug\net8.0\EstudiantesInfraestructure.csproj.GenerateResource.cache

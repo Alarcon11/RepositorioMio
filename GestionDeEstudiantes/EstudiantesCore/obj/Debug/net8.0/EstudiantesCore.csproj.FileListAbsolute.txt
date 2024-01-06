@@ -1,0 +1,12 @@
+C:\Users\USUARIO\3D Objects\RepositorioMio\GestionDeEstudiantes\EstudiantesCore\bin\Debug\net8.0\EstudiantesCore.deps.json
+C:\Users\USUARIO\3D Objects\RepositorioMio\GestionDeEstudiantes\EstudiantesCore\bin\Debug\net8.0\EstudiantesCore.dll
+C:\Users\USUARIO\3D Objects\RepositorioMio\GestionDeEstudiantes\EstudiantesCore\bin\Debug\net8.0\EstudiantesCore.pdb
+C:\Users\USUARIO\3D Objects\RepositorioMio\GestionDeEstudiantes\EstudiantesCore\obj\Debug\net8.0\EstudiantesCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\3D Objects\RepositorioMio\GestionDeEstudiantes\EstudiantesCore\obj\Debug\net8.0\EstudiantesCore.AssemblyInfoInputs.cache
+C:\Users\USUARIO\3D Objects\RepositorioMio\GestionDeEstudiantes\EstudiantesCore\obj\Debug\net8.0\EstudiantesCore.AssemblyInfo.cs
+C:\Users\USUARIO\3D Objects\RepositorioMio\GestionDeEstudiantes\EstudiantesCore\obj\Debug\net8.0\EstudiantesCore.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\3D Objects\RepositorioMio\GestionDeEstudiantes\EstudiantesCore\obj\Debug\net8.0\EstudiantesCore.sourcelink.json
+C:\Users\USUARIO\3D Objects\RepositorioMio\GestionDeEstudiantes\EstudiantesCore\obj\Debug\net8.0\EstudiantesCore.dll
+C:\Users\USUARIO\3D Objects\RepositorioMio\GestionDeEstudiantes\EstudiantesCore\obj\Debug\net8.0\refint\EstudiantesCore.dll
+C:\Users\USUARIO\3D Objects\RepositorioMio\GestionDeEstudiantes\EstudiantesCore\obj\Debug\net8.0\EstudiantesCore.pdb
+C:\Users\USUARIO\3D Objects\RepositorioMio\GestionDeEstudiantes\EstudiantesCore\obj\Debug\net8.0\ref\EstudiantesCore.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "EstudiantesCore/1.0.0": {
+        "runtime": {
+          "EstudiantesCore.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EstudiantesCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
